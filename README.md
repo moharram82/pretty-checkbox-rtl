@@ -1,34 +1,12 @@
 <h1 align="center">
-  <br>
-  <a href="https://lokesh-coder.github.io/pretty-checkbox/"><img src="logo.png" alt="Pretty checkbox" width="100"></a>
-  <br> <br> pretty-checkbox.css <br>
+  <br> <br> pretty-checkbox-rtl <br>
 </h1>
 
-<h4 align="center">A pure CSS library to beautify checkbox and radio buttons.</h4>
+<h4 align="center">A pure CSS library built on <a href="https://github.com/lokesh-coder/pretty-checkbox">
+    pretty-checkbox.css
+  </a> to beautify checkbox and radio buttons, with support for RTL languages.</h4>
 
-<p align="center">
- <a href="https://github.com/lokesh-coder/pretty-checkbox/releases">
-    <img src="https://img.shields.io/github/release/lokesh-coder/pretty-checkbox.svg?style=flat-square&colorA=8033b0&colorB=75b7dd" alt="Github Release">
-  </a>
-   <a href="LICENSE">
-    <img src="https://img.shields.io/npm/l/pretty-checkbox.svg?style=flat-square&colorA=8033b0&colorB=75b7dd" alt="Licence">
-  </a>
-   <a href="#">
-    <img src="https://img.shields.io/npm/dm/pretty-checkbox.svg?style=flat-square&colorA=8033b0&colorB=75b7dd" alt="Downloads">
-  </a>
-</p>
 <br>
-
-<div class="highlight highlight-source-shell">
-<pre>
-<div align="center"><strong >Demo and documentation</strong></div>
-<div align="center"><a align="center" href="https://lokesh-coder.github.io/pretty-checkbox/">https://lokesh-coder.github.io/pretty-checkbox/</a></div>
-</pre>
-</div>
-
-<div align="center">
-<img src="preview.gif" alt="Pretty checkbox preview"/>
-</div>
 
 ### Features
 * Basic
@@ -55,28 +33,20 @@
 ### Installation
 - **From CLI**
 
-Install the library from [`npm`](https://www.npmjs.com/package/pretty-checkbox) or [`yarn`](https://yarnpkg.com/en/package/pretty-checkbox) package manager
+Install the library from [`npm`](https://www.npmjs.com/package/pretty-checkbox-rtl) package manager
 
 ```sh
-> npm install pretty-checkbox // or
-> yarn add pretty-checkbox
+> npm install @moharram82/pretty-checkbox-rtl
 ```
 Add `pretty-checkbox.min.css` in your html
 
 <br>
 
-- **From CDN** ( [`jsDelivr`](https://www.jsdelivr.com/package/npm/pretty-checkbox) )
-```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pretty-checkbox@3.0/dist/pretty-checkbox.min.css"/>
-```
-
-<br>
-
-- **Manual download** ( [`Github`](https://github.com/lokesh-coder/pretty-checkbox/archive/master.zip) )
+- **Manual download** ( [`Github`](https://github.com/moharram82/pretty-checkbox-rtl/archive/master.zip) )
 
 Download the source from Github.
 ```html
-<link rel="stylesheet" href="../<PATH>/pretty-checkbox/dist/pretty-checkbox.min.css"/>
+<link rel="stylesheet" href="../<PATH>/pretty-checkbox-rtl/dist/pretty-checkbox.min.css"/>
 ```
 `<PATH>` is where the library is downloaded.
 
@@ -86,7 +56,7 @@ Download the source from Github.
 
 You can also import `pretty-checkbox.scss` in your main scss file.
 ```scss
-@import '~pretty-checkbox/src/pretty-checkbox.scss';
+@import '~pretty-checkbox-rtl/src/pretty-checkbox.scss';
 ```
 
 Please refer the document for SCSS settings.
