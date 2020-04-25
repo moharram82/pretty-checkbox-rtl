@@ -1,0 +1,46 @@
+{
+  "name": "@moharram82/pretty-checkbox-rtl",
+  "version": "3.0.3",
+  "description": "A pure css library to beautify checkbox and radio buttons.",
+  "main": "dist/pretty-checkbox.min.css",
+  "scripts": {
+    "lint": "gulp lint:scss",
+    "fix": "stylelint \"src\\**\\*.scss\" --syntax scss --fix",
+    "format": "gulp css:format",
+    "build": "gulp build",
+    "ci": "npm run build && git add dist -f && git commit -m \"build(release): auto build [ci skip]\"",
+    "release": "corp-semantic-release",
+    "log": "conventional-github-releaser -p angular -r 0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "pretty-checkbox": "^3.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moharram82/pretty-checkbox-rtl.git",
+    "link": "https://github.com/moharram82/pretty-checkbox-rtl"
+  },
+  "keywords": [
+    "checkbox",
+    "radio",
+    "bootstrap",
+    "fonticon",
+    "icon",
+    "svg",
+    "switch",
+    "toggle",
+    "sass",
+    "css3",
+    "animation",
+    "pretty",
+    "check",
+    "colors"
+  ],
+  "author": "Mohammed Moharram",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/moharram82/pretty-checkbox-rtl/issues"
+  },
+  "homepage": "https://github.com/moharram82/pretty-checkbox-rtl#readme"
+}
