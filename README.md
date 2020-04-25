@@ -33,7 +33,7 @@
 ### Installation
 - **From CLI**
 
-Install the library from [`npm`](https://www.npmjs.com/package/pretty-checkbox-rtl) package manager
+Install the library from [`npm`](https://www.npmjs.com/package/@moharram82/pretty-checkbox-rtl) package manager
 
 ```sh
 > npm install @moharram82/pretty-checkbox-rtl
